@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "assert": "^2.1.0",
+    "chai": "^4.3.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.53.0",
+    "eslint-plugin-react": "^7.33.2",
+    "mocha": "^10.2.0"
+  }
+}
