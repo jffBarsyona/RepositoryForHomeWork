@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="5" failures="0" errors="0" time="0.678">
+  <testsuite name="Books API Tests" errors="0" failures="0" skipped="0" timestamp="2023-11-26T17:35:04" time="0.63" tests="5">
+    <testcase classname="Books API Tests GET /books returns status code 200 and valid JSON schema" name="Books API Tests GET /books returns status code 200 and valid JSON schema" time="0.266">
+    </testcase>
+    <testcase classname="Books API Tests POST /books creates a new book and returns status code 200" name="Books API Tests POST /books creates a new book and returns status code 200" time="0.036">
+    </testcase>
+    <testcase classname="Books API Tests GET /books/:id returns status code 200 and valid JSON schema" name="Books API Tests GET /books/:id returns status code 200 and valid JSON schema" time="0.029">
+    </testcase>
+    <testcase classname="Books API Tests PUT /books/:id updates the book and returns status code 200" name="Books API Tests PUT /books/:id updates the book and returns status code 200" time="0.026">
+    </testcase>
+    <testcase classname="Books API Tests DELETE /books/:id deletes the book and returns status code 200" name="Books API Tests DELETE /books/:id deletes the book and returns status code 200" time="0.027">
+    </testcase>
+  </testsuite>
+</testsuites>
