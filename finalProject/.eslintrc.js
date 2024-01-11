@@ -1,10 +1,11 @@
 module.exports = {
-    
+
     'env': {
         'browser': true,
         'commonjs': true,
         'es2021': true,
-         jasmine: true
+        jasmine: true,
+        jquery: true
     },
     'extends': [
         'eslint:recommended',
@@ -33,6 +34,10 @@ module.exports = {
     ],
     'rules': {
         'quotes': ['error', 'single'],
-        'no-tabs': 'error', 
+        'no-tabs': 'error',
+
+        'globals': {
+            browser: 'readonly',
+        }
     }
 }
