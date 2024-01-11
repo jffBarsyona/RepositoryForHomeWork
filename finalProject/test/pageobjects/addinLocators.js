@@ -54,16 +54,6 @@ class Addin {
         return $('//*[@id="footer-button-dots"]');
     }
 
-    async openContextMenuOnFooter(nameItem) {
-        const buttonMore = await this.buttonMoreOnFooter;
-        await buttonMore.waitForDisplayed();
-        await buttonMore.click();
-
-        const item = await this.getItemFromContextMenu(nameItem);
-        await item.waitForDisplayed();
-        await item.click();
-    }
-
     async getItemFromContextMenu(nameItem) {
         return $('//*[contains(@class, "p-menuitem-text") and text()="' + nameItem + '"]');
     }
@@ -74,6 +64,16 @@ class Addin {
 
     async getTab(tabIndex) {
         return $('//*[@tabindex="' + tabIndex + '"]');
+    }
+
+    async openContextMenuOnFooter(nameItem) {
+        const buttonMore = await this.buttonMoreOnFooter;
+        await buttonMore.waitForDisplayed();
+        await buttonMore.click();
+
+        const item = await this.getItemFromContextMenu(nameItem);
+        await item.waitForDisplayed();
+        await item.click();
     }
 
     async goToTab(tabIndex) {

@@ -29,7 +29,6 @@ describe('SET_FUN_002 - Create an empty template named "SET_FUN_002" via the con
 
     it('Should create a new template via the context menu in My Templates.', async () => {
         await addin.openContextMenu(nameTeam, nameItem);
-        //expect(await addin.inputTemplateName).toBeDisplayed();
         const element = await addin.inputTemplateName;
         await element.waitForDisplayed();
         expect(await element.isDisplayed()).toBe(true);
