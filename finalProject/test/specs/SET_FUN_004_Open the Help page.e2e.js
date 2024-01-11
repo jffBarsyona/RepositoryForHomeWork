@@ -4,7 +4,7 @@ const fun = require('../pageobjects/functions');
 const components = require('../Data/components');
 
 
-describe('SET_FUN_003 - Create an empty template named "SET_FUN_002" via the context menu', () => {
+describe('SET_FUN_003 - Open the "Help" page via the context menu', () => {
     const item = components.itemHelp;
 
     beforeAll(() => {
