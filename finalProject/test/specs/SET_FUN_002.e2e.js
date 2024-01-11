@@ -6,7 +6,7 @@ const components = require('../Data/components');
 describe('SET_FUN_002 - Create an empty template named "SET_FUN_002" via the context menu', () => {
     const nameTeam = components.defaultTeam;
     const nameItem = components.itemNewTemplate;
-    const nameTemplate = "SET_FUN_002";
+    const nameTemplate = 'SET_FUN_002';
 
     beforeAll(() => {
     });

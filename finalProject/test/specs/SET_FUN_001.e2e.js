@@ -6,7 +6,7 @@ const components = require('../Data/components');
 describe('SET_FUN_001 - Create an empty folder named "SET_FUN_001" via the context menu', () => {
     const nameTeam = components.defaultTeam;
     const nameItem = components.itemNewFolder;
-    const nameFolder = "SET_FUN_001";
+    const nameFolder = 'SET_FUN_001';
 
     beforeAll(() => {
     });
